@@ -3,11 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to my world!</title>
+    <link href="https://cdn.lineicons.com/2.0/LineIcons.css" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    
+    <script src="./assets/styles/CSS/main.css"></script>
+    <title>Welcome to my world! | Urvin Kirindongo | Homepage</title>
 </head>
 <body>
     <header>
-        <div class="logo">UK</div>
+        <div class="logo"><a title="Home" href="/index.html">UK</a></div>
         <h1>Urvin Kirindongo</h1>
         <nav>            
             <ul>
@@ -17,12 +24,67 @@
     </header>
     <main>
         <div class="jumbotron">
-            <figure><img src="" alt="" class=""></figure>
-        </div>        
+            <figure id="profilePic"><img src="" alt="" class=""></figure>
+            <div class="aboutMeShort">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aliquid est facilis, recusandae modi ipsum obcaecati eveniet error adipisci vitae.
+                </p>
+                <div class="links">
+                    <div class="link">
+                        <a href="https://github.com/urvink/">
+                            <!-- <img src="./assets/img/github.svg" title="Github" alt="Github Icon" class="personalLinks"> -->
+                            <i title="Github (UrvinK)" class="lni lni-github personalLinks"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/urvink/">
+                            <i title="LinkedIn (UrvinK)" class="lni lni-linkedin personalLinks"></i>
+                        </a>
+                    </div>
+                    <div class="link"><a href=""><img src="" alt="" class="personalLinks"></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="projects">
+            <h2>Works</h2>
+            <div class="works">
+                <div class="work flex">Work# 1</div>
+                <div class="work flex">Work# 2</div>
+                <div class="work flex">Work# 3</div>
+            </div>
+        </div>
+        <div class="technologies">
+            <h2>Technologies</h2>
+            <div class="technology">
+                <div class="techName">HTML</div>
+                <div class="icon"></div>
+                <div class="techRating">4</div>
+            </div>
+            <div class="technology">
+                <div class="techName">CSS</div>
+                <div class="icon"></div>
+                <div class="techRating">2.5</div>
+            </div>
+            <div class="technology">
+                <div class="techName">JavaScript</div>
+                <div class="icon"></div>
+                <div class="techRating"></div>
+            </div>
+            <div class="technology">
+                <div class="techName"></div>
+                <div class="techRating"></div>
+            </div>
+        </div>
+        <div class="interests">
+            <h2>Interests & Hobbies</h2>
+            <div class="interest">
+                <div class="interestName">OpenSource</div>
+                <div class="interestDesc">Samen leveren we beter product op dan afzonderlijk</div>
+            </div>
+        </div>
     </main>
     <footer>
         
     </footer>
+    
    
 </body>
 </html>
