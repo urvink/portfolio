@@ -1,0 +1,26 @@
+{
+    "PersonalInfo": {
+        "personalia":{
+            "name": "Urvin Kirindongo",
+            "bDate": "12/06/1984",
+            "gender": "M",
+            "links":[
+                {
+                    "name": "Github",
+                    "icon": "../img/github.svg",
+                    "href": ""                    
+                },
+                {
+                    "name": "LinkedIn",
+                    "icon": "../img/linkedIn.svg",
+                    "href": ""
+                }
+            ],
+            "contactInfo":{
+                "mobilePhone": "0620416506",
+                "email": "urvinkirindongo@gmail.com",
+                ""
+            }
+        }
+    }
+}
