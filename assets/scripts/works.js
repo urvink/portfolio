@@ -1,5 +1,3 @@
-import * as data from "../works.json";
-
+import data from '../data/works.json';
 const works = data;
-
 console.log(works);

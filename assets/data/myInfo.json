@@ -8,12 +8,12 @@
                 {
                     "name": "Github",
                     "icon": "../img/github.svg",
-                    "href": ""                    
+                    "href": "https://github.com/urvink"                    
                 },
                 {
                     "name": "LinkedIn",
                     "icon": "../img/linkedIn.svg",
-                    "href": ""
+                    "href": "https://www.linkedin.com/in/urvink/"
                 }
             ],
             "contactInfo":{

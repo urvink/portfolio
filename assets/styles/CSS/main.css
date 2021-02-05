@@ -1,10 +1,8 @@
-body {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+nav ul li {
+  list-style-type: none;
 }
 
-body nav ul li {
-  list-style-type: none;
+.projects, .technologies, .interests {
+  border: 2px solid black;
 }
 /*# sourceMappingURL=main.css.map */
