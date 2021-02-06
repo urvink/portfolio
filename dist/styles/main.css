@@ -1,0 +1,19 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+}
+
+nav ul > li {
+  list-style-type: none;
+}
+/*# sourceMappingURL=main.css.map */
