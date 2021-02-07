@@ -1,5 +1,7 @@
 {
-    "PersonalInfo": {
+    "lead":{
+        "NL": "Hallo, Ik ben Urvin Kirindongo een Back-end ontwikkelaar in opleiding bij TechGrounds!\n Wat mij kenmerkt is dat ik graag anderen help en de informatie die ik heb probeer ik zo veel mogelijk te delen. Als een toekomstige Back-end Developer wil ik mij verder ontwikkelen tot een Full-Stack Developer."
+    },
         "personalia":{
             "name": "Urvin Kirindongo",
             "bDate": "12/06/1984",
@@ -21,5 +23,4 @@
                 "email": "urvinkirindongo@gmail.com"
             }
         }
-    }
 }

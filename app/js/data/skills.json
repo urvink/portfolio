@@ -1,0 +1,42 @@
+{
+    "skills":
+    [
+        {
+            "name":"HTML5",
+            "icon":{
+                "href":"../dist/img/html5.svg",
+                "alt":"Vector image for HTML5"},
+            "rating": 4
+        },
+        {
+            "name":"CSS3",
+            "icon":{
+                "href": "~/img/css3.svg",
+                "alt": "Vector image for CSS3"
+            },
+            "rating": 3
+        },
+        {
+            "name":"JavaScript",
+            "icon":{
+                "href":"~/dist/img/js.svg",
+                "alt":"Vector image for JavaScript"},
+            "rating": 4
+        },
+        {
+            "name":"SCSS",
+            "icon":{
+                "href":"~/dist/img/sass.svg",
+                "alt":"Vector image for SCSS"},
+            "rating": 3
+        },
+        {
+            "name":"Bootstrap",
+            "icon":{
+                "href":"~/dist/img/bootstrap.svg",
+                "alt":"Vector image for Bootstrap"},
+            "rating": 4
+        }
+    ]
+    
+}
