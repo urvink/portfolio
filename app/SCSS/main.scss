@@ -1,8 +1,79 @@
 @import "vars";
 @import "resets";
 
-nav{
-    ul>li{
-        list-style-type: none;
+.wrapper{
+    
+    width: 95%;
+    margin: 20px auto;
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        h1{
+            font-size: 5rem;
+        }
+        .logo{
+            border-radius: 50%;
+            border: $border;
+            font-size: xx-large;
+            padding: 1.5rem;
+        }
+       
+        nav{
+            ul>li{
+                list-style-type: none;
+            }
+        }
+    }
+    
+
+    main{
+        
+        
+        .hero{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 20rem;
+            // background-color: rgb(243, 236, 236);
+            border-top: $border;
+            border-bottom: $border;
+
+            #profilePic{
+                width: 30rem;
+                overflow: hidden;
+    
+                img{
+                    height: 300px;
+                    border-radius: 50%;
+                    justify-content: start;
+                    align-items: center;
+                }
+            }
+            
+            .lead{
+                font-size: xx-large;
+                // background-color: red;
+                width: 60rem;
+            }
+        }
+
+        
+
+        .works, .technologies, header{
+            display: flex;
+            justify-content: space-between;
+            // background-color: yellow;
+        }
+
+        .hero, .work, .skills, .interests, header{
+            // background-color: blue;
+            filter: grayscale(100%);
+
+            &:hover{
+                filter: grayscale(0%);
+            }
+        }
     }
 }
