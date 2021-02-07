@@ -32,16 +32,8 @@
         
         
         .hero{
-<<<<<<< HEAD
             align-items: center;
             height: 20rem;
-=======
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            height: 20rem;
-            // background-color: rgb(243, 236, 236);
->>>>>>> 1d1adc27811403f110ee190c150a989a889668b2
             border-top: $border;
             border-bottom: $border;
 
@@ -62,27 +54,15 @@
                 // background-color: red;
                 width: 60rem;
             }
-<<<<<<< HEAD
         }        
 
         .works, .technologies, header, .hero{
-=======
-        }
-
-        
-
-        .works, .technologies, header{
->>>>>>> 1d1adc27811403f110ee190c150a989a889668b2
             display: flex;
             justify-content: space-between;
             // background-color: yellow;
         }
 
-<<<<<<< HEAD
         .hero, .work, .skills, .interests, header, .technology{
-=======
-        .hero, .work, .skills, .interests, header{
->>>>>>> 1d1adc27811403f110ee190c150a989a889668b2
             // background-color: blue;
             filter: grayscale(100%);
 

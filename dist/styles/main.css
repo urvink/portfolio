@@ -40,13 +40,7 @@ body {
 }
 
 .wrapper main .hero {
-<<<<<<< HEAD
   align-items: center;
-=======
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
->>>>>>> 1d1adc27811403f110ee190c150a989a889668b2
   height: 20rem;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -69,28 +63,16 @@ body {
   width: 60rem;
 }
 
-<<<<<<< HEAD
 .wrapper main .works, .wrapper main .technologies, .wrapper main header, .wrapper main .hero {
-=======
-.wrapper main .works, .wrapper main .technologies, .wrapper main header {
->>>>>>> 1d1adc27811403f110ee190c150a989a889668b2
   display: flex;
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
 .wrapper main .hero, .wrapper main .work, .wrapper main .skills, .wrapper main .interests, .wrapper main header, .wrapper main .technology {
   filter: grayscale(100%);
 }
 
 .wrapper main .hero:hover, .wrapper main .work:hover, .wrapper main .skills:hover, .wrapper main .interests:hover, .wrapper main header:hover, .wrapper main .technology:hover {
-=======
-.wrapper main .hero, .wrapper main .work, .wrapper main .skills, .wrapper main .interests, .wrapper main header {
-  filter: grayscale(100%);
-}
-
-.wrapper main .hero:hover, .wrapper main .work:hover, .wrapper main .skills:hover, .wrapper main .interests:hover, .wrapper main header:hover {
->>>>>>> 1d1adc27811403f110ee190c150a989a889668b2
   filter: grayscale(0%);
 }
 /*# sourceMappingURL=main.css.map */
